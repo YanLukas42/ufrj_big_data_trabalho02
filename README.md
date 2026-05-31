@@ -68,6 +68,8 @@ PIPELINE FINALIZADA COM SUCESSO!
 ### 3. Conecte ao banco de dados
 Abra **outro terminal** e execute:
 ```bash
+newgrp docker
+
 docker exec -it locadora_dwh_db psql -U postgres -d locadora_dwh
 ```
 
