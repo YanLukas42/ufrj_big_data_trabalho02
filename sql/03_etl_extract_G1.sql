@@ -13,7 +13,6 @@
 -- SGBD fonte: ANSI SQL (PostgreSQL compatível)
 -- Schema fonte: locadora_g1
 --
--- Descrição:
 --   Extrai dados do nosso próprio sistema OLTP (G1) e insere
 --   na área de staging. Utiliza lógica de carga incremental
 --   baseada em data de alteração (dt_extracao).
